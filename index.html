@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Microsoft</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+
+    <div id="navbar">
+      <button onclick="changeTab('geschiedenis')">
+        Geschiedenis
+      </button>
+
+      <button onclick="changeTab('Software')">Software</button>
+
+      <button onclick="changeTab('Hardware')">Hardware</button>
+
+      <button onclick="changeTab('MakeCode')">MakeCode</button>
+
+      <button onclick="changeTab('Bronvermelding')">
+        Bronvermelding
+      </button>
+
+      <button onclick="lightVsDark()">
+        <i>
+          <!--lighMode/darkMode icoon via material design icons-->
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
+            /></svg
+        ></i>
+      </button>
+    </div>
+
+    <main>
+      <div id="geschiedenis" class="tab">
+        <section>
+          <h2>Geschiedenis</h2>
+          <p>
+            Microsoft is een bedrijf dat is opgericht in 1975 door Bill Gates en
+            Paul Allen, Bill gates en Paul Allen waren twee goede vrienden met
+            een grote interesse voor programmeren. Hun eerste project was dan
+            ook een BASIC-interpreter voor de Altair 8800, het programma dat ze
+            hebben gemaakt werd met goedkeuring van MITS het programma de
+            altair-BASIC genoemd, dit vond plaats in maart van 1975, de maand
+            die daarop volgende werd Microsoft officieel opgericht.
+          </p>
+          <p>
+            In 1980 kwam Microsoft met hun eerste besturingssysteem genaamd<br />
+            MS-DOS , dit is het besturingssysteem dat Microsoft later groot zou
+            maken, dit besturingssysteem kwam voort uit een samenwerking met het
+            bedrijf IBM. IBM noemde MS-DOS later PC-DOS. Door de grote
+            hoeveelheid software die beschikbaar was voor MS-DOS werd Microsoft
+            dan dus ook het leidende bedrijf in de markt voor
+            besturingssystemen. Later kwam Microsoft ook met muizen op de markt.
+          </p>
+          <p>
+            MS-DOS werd steeds verder ontwikkeld door Microsoft, zo werden er
+            ook grafische uitbreidingen aan toegevoegd, MS-DOS met deze
+            uitbreidingen werd op 20 November 1984 uitgebracht. MS-DOS werd
+            later bekend als Microsoft Windows Op 13 maart 1986 kwam Microsoft
+            op de beurs te staan, hierdoor werd Microsoft in een hoog tempo
+            steeds groter en rijker.
+          </p>
+          <p>
+            Het was echter niet alleen maar rozengeur en maneschijn. Zo moest
+            onder andere Paul Allen wegens ziekte uit het bedrijf stappen, Paul
+            Allen zegt zelf dat dit onder druk van Bill Gates is gebeurt. Bill
+            Gates zou de shares van Paul Allen willen verminderen omdat hij niet
+            meer genoeg kon werken. Er zijn sinds het oprichten van Microsoft
+            ook meerdere rechtszaken tegen het bedrijf geweest en ook heeft het
+            bedrijf aardig wat boetes gekregen voor verschillende redenen. Een
+            van de redenen voor de boetes was het misbruik van de dominante
+            positie van het bedrijf en zijn software. Het werd dan bijvoorbeeld
+            onmogelijk gemaakt voor niet windows software met de Microsoft os
+            samen te werken waardoor de concurrentie werd onderdrukt. Veel van
+            de rechtszaken zijn gekomen uit de pogingen van Microsoft hun
+            concurrenten de markt uit te duwen door het moeilijk te maken voor
+            andere software samen te werken met windows.
+          </p>
+          <div class="ImageContainer">
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2FBillPaul.jpg?v=1633281017974"
+              />
+              <figcaption>Afbeelding 1: Bill Gates en Paul Allen</figcaption>
+            </figure>
+
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2FMS-DOS_icon.png?v=1633281148656"
+              />
+              <figcaption>Afbeelding 2: Logo van MS-DOS</figcaption>
+            </figure>
+
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2Fverhoor.jpg?v=1633281632595"
+              />
+              <figcaption>Afbeelding 3: Gates tijdens een verhoor</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+
+      <div id="Software" class="w3-container tab" style="display:none">
+        <section>
+          <h2>Software</h2>
+          <p>
+            In de loop van de tijd heeft Microsoft erg veel software
+            uitgebracht, het is ook niet alleen bij besturingssystemen gebleven,
+            het bedrijf heeft ook programma’s voor bij dat besturingssysteem
+            gemaakt, bij deze tab zal ik wat verder ingaan op een paar van de
+            wat bekendere software van Microsoft
+          </p>
+          <p>
+            Het lijkt me gepast te beginnen met de software, of in dit geval de
+            os waarmee het allemaal begonnen is: Microsoft Windows. De eerste
+            versie van Windows werd uitgebracht in 1985, dit was Windows 1.0,
+            Windows 1.0 werd al snel opgevolgd door Windows 2.0 en nog wat later
+            kwam Windows 3.0, in deze reeks vielen ook nog Windows 95/98/98 SE
+            en Windows ME, al deze genoemde Windows versies gebruikte de
+            originele/eerste Windowskernel, de laatste Windows versie in deze
+            reeks werd 14 september 2000 uitgebracht en werd ondersteund tot 11
+            juli 2006. De volgende kernel van Windows was de Windows NT-kernel,
+            deze kernel wordt ook nu nog gebruikt voor Windows 10, nu als de NT
+            10.0. De eerste Windows versie met de nieuwe NT-kernel was Windows
+            NT 3.1, deze versie van Windows kwam uit in 1993.
+          </p>
+
+          <p>
+            Toen in 1995 Windows 95 werd uitgebracht werd daarbij ook de eerste
+            versie van Internet Explorer later Internet Explorer 1 genoemd
+            uitgebracht, er is als maar verder gewerkt aan Internet Explorer tot
+            aan Internet Explorer 11, dit was de laatste in die reeks en was in
+            2017 uitgebracht. In 2015 werd de eerste versie van Microsoft Edge
+            uitgebracht, dit is de internet browser die Internet Explorer heeft
+            verplaatst als standaard browser van Windows, deze browser is tot op
+            heden in gebruik en wordt ook nog steeds verder ontwikkelt.
+          </p>
+
+          <p>
+            Een ander groot project van Microsoft is Microsoft office, dit is
+            een software pakket waarin Microsoft Word, Microsoft PowerPoint en
+            Microsoft Excel, net als Internet Explorer en Windows heeft ook
+            Microsoft office heel wat veranderingen door de jaren heen gezien,
+            zo zijn er nieuwe applicaties bij gekomen en zijn er ook weer andere
+            applicaties uit het office pakker verdwenen. De eerste versie van
+            Microsoft office komt uit 1989 en gaat dus al heel wat jaren mee.
+          </p>
+
+          <div class="ImageContainer">
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2Flogo.jpg?v=1633281863214"
+              />
+              <figcaption>
+                Afbeelding 1: Windows logo's door de jaren heen
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2Fie-to-edge.jpg?v=1633281859854"
+              />
+              <figcaption>
+                Afbeelding 2: Internet Explorer wordt Microsoft edge
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2Foffice.png?v=1633284501811"
+              />
+              <figcaption>Afbeelding 3: Microsoft office</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+
+      <div id="Hardware" class="w3-container tab" style="display:none">
+        <section>
+          <h2>Hardware</h2>
+          <p>
+            Microsoft heeft niet alleen OS en software uitgebracht maar is ook
+            nog eens bezig geweest in de hardware branch, zo hebben ze onder
+            anderen in 1983 de Microsoft Mouse uitgebracht, dit was de eerste
+            muis die door Microsoft werd uitgebracht, je kon deze krijgen in een
+            bundel met Microsoft Word en Notepad, je kreeg er ook nog eens een
+            tutorial bij geleverd om te leren hoe je met de muis om hoorde te
+            gaan.
+          </p>
+          <p>
+            Een van de meer bekende hardware producten van Microsoft is de Xbox
+            series die vandaag de dag nog steeds veel gebruikt en verkocht
+            worden, de Xbox is sinds zijn eerste uitgave in 2001 al meerdere
+            keren in een nieuw jasje gestoken, De Xbox is een video game console
+            die zijn naam te danken heeft aan de ontwikkelaars die in interne
+            mails de “DirectX Box” afkortte naar Xbox, deze naam is uiteindelijk
+            na een strijd met de marketingafdeling gekozen van een lange lijst
+            met verschillende namen. De naam Xbox wordt bij elke nieuwe
+            generatie Xbox weer opnieuw gebruikt, het enigste dat verandert is
+            het nummer wat er achter komt te staan.
+          </p>
+          <p>
+            De eerste Xbox kwam dus uit in 2001 en is in productie geweest tot
+            2006, in die paar jaar zijn er 996 spellen voor de Xbox uitgebracht
+            de best verkopende game voor de eerste generatie Xbox was Halo 2. In
+            2005 werd de Xbox 360 uitgebracht, dit was de tweede generatie Xbox
+            deze zou nog tot 2016 worden geproduceerd en in die tijd heeft deze
+            Xbox wel 2153 games gekregen, de best verkopende game voor de Xbox
+            360 was call of duty modern warfare 3. De derde generatie van de
+            Xbox werd de Xbox one, one S en one X genoemd, de Xbox one werd van
+            2013 tot 2016 geproduceerd de One S werd van 2016 tot 2020
+            geproduceerd en de One X van 2017 tot 2020. Momenteel is de Xbox
+            bezig aan de vierde generatie, hieronder vallen de Xbox series S en
+            X deze worden sinds 2020 geproduceerd.
+          </p>
+          <div class="ImageContainer">
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2FMicrosoft_Mouse_1983.jpg?v=1633291297673"
+              />
+              <figcaption>
+                Afbeelding 1: De eerste Microsoft mouse
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2Fxbox.jfif?v=1633291493920"
+              />
+              <figcaption>
+                Afbeelding 2: Eerste Xbox
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img
+                src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2FxboxSeriesX.jpg?v=1633291523229"
+              />
+              <figcaption>Afbeelding 3: Xbox series X</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+
+      <div id="MakeCode" class="w3-container tab" style="display:none">
+        <section>
+          <h2>MakeCode</h2>
+          <p>
+            Voor het CLE project van de opleiding CMGT is het de bedoeling dat
+            we een robot maken die door de circuit playground express wordt
+            bestuurt. De circuit playground krijgt via het programma makecode
+            van Microsoft de code binnen die de robot bestuurt. Makecode is een
+            leuke manier van kennis maken met de wereld van programmeren die
+            door Microsoft wordt aangeboden zonder dat je er iets voor hoeft te
+            betalen, ik heb dan dus ook Microsoft als onderwerp gekozen omdat ik
+            dit een leuke verbinding vond met CLE.
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </p>
+          <figure>
+            <img
+              src="https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2FMakeCode.png?v=1633293528364"
+            />
+            <figcaption>
+              MakeCode
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+
+      <div id="Bronvermelding" class="w3-container tab" style="display:none">
+        <section>
+          <h2>Bronvermelding</h2>
+          <p>
+            Wikipedia contributors. (2020, 19 oktober). Microsoft Mouse.
+            Geraadpleegd op 2 oktober 2021, van<br />
+            <a
+              class="bronVermelding"
+              href="https://en.wikipedia.org/wiki/Microsoft_Mouse"
+              target="_blank"
+              >https://en.wikipedia.org/wiki/Microsoft_Mouse</a
+            >
+          </p>
+          <p>
+            Wikipedia contributors. (2021a, 1 oktober). List of Xbox games.
+            Geraadpleegd op 3 oktober 2021, van
+            <a
+              class="bronVermelding"
+              href="https://en.wikipedia.org/wiki/List_of_Xbox_games#top"
+              target="_blank"
+              >https://en.wikipedia.org/wiki/List_of_Xbox_games#top</a
+            >
+          </p>
+          <p>
+            Wikipedia contributors. (2021b, 3 oktober). List of Xbox 360 games
+            (A–L). Geraadpleegd op 3 oktober 2021, van
+            <a
+              class="bronVermelding"
+              href="https://en.wikipedia.org/wiki/List_of_Xbox_360_games_(A%E2%80%93L)"
+              target="_blank"
+              >https://en.wikipedia.org/wiki/List_of_Xbox_360_games_(A%E2%80%93L)</a
+            >
+          </p>
+          <p>
+            Wikipedia-bijdragers. (2021a, 26 juni). Microsoft Office.
+            Geraadpleegd op 2 oktober 2021, van<br />
+            <a
+              class="bronVermelding"
+              href="https://nl.wikipedia.org/wiki/Microsoft_Office"
+              target="_blank"
+              >https://nl.wikipedia.org/wiki/Microsoft_Office</a
+            >
+          </p>
+          <p>
+            Wikipedia-bijdragers. (2021b, 1 augustus). Internet Explorer.
+            Geraadpleegd op 1 oktober 2021, van
+            <a
+              class="bronVermelding"
+              href="https://nl.wikipedia.org/wiki/Internet_Explorer#Internet_Explorer_5"
+              target="_blank"
+              >https://nl.wikipedia.org/wiki/Internet_Explorer#Internet_Explorer_5</a
+            >
+          </p>
+          <p>
+            Wikipedia-bijdragers. (2021c, 11 september). Microsoft Windows.
+            Geraadpleegd op 3 oktober 2021, van
+            <a
+              class="bronVermelding"
+              href="https://nl.wikipedia.org/wiki/Microsoft_Windows"
+              target="_blank"
+              >https://nl.wikipedia.org/wiki/Microsoft_Windows</a
+            >
+          </p>
+          <p>
+            Wikipedia-bijdragers. (2021d, 2 oktober). Microsoft Edge.
+            Geraadpleegd op 1 oktober 2021, van<br />
+            <a
+              class="bronVermelding"
+              href="https://nl.wikipedia.org/wiki/Microsoft_Edge"
+              target="_blank"
+              >https://nl.wikipedia.org/wiki/Microsoft_Edge</a
+            >
+          </p>
+          <p>
+            Wikipedia-bijdragers.(2021e, 3 oktober). Microsoft. Geraadpleegd op
+            3 oktober 2021, van<br />
+            <a
+              class="bronVermelding"
+              href="https://nl.wikipedia.org/wiki/Microsoft"
+              target="_blank"
+              >https://nl.wikipedia.org/wiki/Microsoft</a
+            >
+            <br />
+            <br />
+            <br />
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>Lennard Touw</p>
+      <p>0990520</p>
+    </footer>
+
+    <script>
+            window.onscroll = function() {
+              stickyNavbar();
+            };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function stickyNavbar() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+    </script>
+  </body>
+</html>
