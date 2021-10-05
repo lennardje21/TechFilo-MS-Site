@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  background-color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.dark-mode {
+  background-color: #162B32;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+header {
+  background-image: url(https://cdn.glitch.com/ff5d41bb-fd48-48a5-86f9-05cce41d568f%2F58480fd7cef1014c0b5e4943.png?v=1633349411495);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #162B32;
+  text-align: center;
+  font-size: 2em;
+  padding: 75px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  overflow: none;
+  width: 100%;
+  background-color: #FF4838;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+section {
+  background-color: #FF4838;
+  border-radius: 30px;
+  box-shadow: 10px 10px;
+  padding: 20px;
+  margin: 20px auto;
+  color: black;
+  font-size: 1.3em;
+  max-width: 800px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #FF4838;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar button {
+  font-family: "Cinzel", serif;
+  background-color: #FF4838;
+  border-radius: 20px;
+  color: black;
+  border: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#navbar button:hover {
+  background-color: #062F4F;
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#navbar a:active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.multicolortext {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    blue,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bronVermelding {
+  color: blue;
+}
+
+.ImageContainer {
+  margine: 0px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+}
+.ImageContainer figure {
+  width: 30%;
+  display: block;
+}
+.ImageContainer img {
+  width: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    display: block;
+  }
+}
